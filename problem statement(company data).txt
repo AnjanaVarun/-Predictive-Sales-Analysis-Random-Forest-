@@ -1,0 +1,47 @@
+Advance Project - 9
+
+About the data: 
+Let’s consider a Company dataset with around 10 variables and 400 records. 
+The attributes are as follows: 
+ Sales -- Unit sales (in thousands) at each location
+ Competitor Price -- Price charged by competitor at each location
+ Income -- Community income level (in thousands of dollars)
+ Advertising -- Local advertising budget for company at each location (in thousands of dollars)
+ Population -- Population size in region (in thousands)
+ Price -- Price company charges for car seats at each site
+ Shelf Location at stores -- A factor with levels Bad, Good and Medium indicating the quality of the shelving location for the car seats at each site
+ Age -- Average age of the local population
+ Education -- Education level at each location
+ Urban -- A factor with levels No and Yes to indicate whether the store is in an urban or rural location
+ US -- A factor with levels No and Yes to indicate whether the store is in the US or not
+The company dataset looks like this: 
+ 
+Problem Statement:
+A cloth manufacturing company is interested to know about the segment or attributes causes high sale. 
+Approach - A Random Forest can be built with target variable Sales (we will first convert it in categorical variable) & all other variable will be independent in the analysis. 
+
+1. Steps should be followed properly.
+2. Proper EDA should be done
+3. Model Training and Validation
+4. Inference.
+5. Submit the Html of the notebook.
+
+1. Follow the Machine Learning Life Cycle Steps.
+2. Write proper Insights/Inference on each analysis
+3. Do proper EDA on the columns and the data with graphs using seaborn and interpret the graphs. EDA should be in seperate notebook
+4. Save the graphs in one folder and zip the folder.
+5. Zip the datasets folders for Company Data.
+6. Write proper print statements while writing the code. Proper rounding of the numbers is also required.
+7. Prepare a presentation for both the projects seperately. The presentation should contain - 
+	1. Objective
+	2. Solution 
+	3. Business Impact
+8. Save the Code and download it as .ipynb format - with its name "company_data_prj_9"
+9. Prepare a Word Doc for the entire end to end process with solution architecture and methodology. Also mention the time taken
+for the use case to develop. Challenges faced and the complexity. Create a template which you can use further on other projects also.
+10. Create a single Github repo for both the use case with proper name as Classification with Random Forest-1" and upload the zip datasets, zip graphs, .ipynb file, ppt, word doc.
+11. In the same readme file mention the details about both the use cases and mention the tools and the insights gathered.
+12. Add some relevant key words for the repo.
+
+13. The entire code should be properly modularized, that means a main file has to be created for calling.
+ 
